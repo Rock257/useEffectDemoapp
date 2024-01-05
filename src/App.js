@@ -1,6 +1,5 @@
 import "./styles.css";
-import DemoApp from "./component/DemoApp";
-
+import First from "./component/First";
 export default function App() {
   return (
     <div className="App">
@@ -17,7 +16,7 @@ export default function App() {
         Synatax <pre>useEffect(funtion, dependencies?)</pre>{" "}
       </h3>
       <div className="compo">
-        <DemoApp />
+        <First />
       </div>
     </div>
   );
